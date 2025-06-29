@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta
+            name="description"
+            content="avivshafir"
+        />
+        <meta property="og:title" content="avivshafir" />
+        <meta
+            property="og:description"
+            content="avivshafir"
+        />
+        <meta property="og:image:type" content="image/png" />
+        <meta property="og:image:width" content="2400" />
+        <meta property="og:image:height" content="1260" />
+        <meta property="og:site_name" content="avivshafir" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:type" content="website" />
+
+        <!-- title -->
+        <title>avivshafir</title>
+
+        <!-- CSS -->
+        <style>
+            body {
+                --text: #111;
+                --middle: #555;
+                --bg: #aaa;
+                --max-width: 54ch;
+                background: var(--bg);
+                color: var(--text);
+                font-family: "CommitMono", monospace;
+                margin: 0;
+                padding: 0;
+            }
+            
+            /* Compact layout - reduce spacing */
+            h2:first-of-type {
+                font-size: 1rem;
+                line-height: 1.25rem;
+                font-weight: normal;
+                margin: 0 0 0.75rem 0;
+            }
+            
+            h2 {
+                font-size: 0.75rem;
+                line-height: 1rem;
+                font-weight: bold;
+                margin: 0 0 0.5rem 0;
+            }
+            
+            p {
+                font-size: 0.75rem;
+                line-height: 1rem;
+                margin: 0 0 0.5rem 0;
+            }
+            
+            br {
+                line-height: 0.5rem;
+            }
+            
+            /* Fix bullet point alignment */
+            ul {
+                list-style-type: none;
+                padding-left: 0;
+                margin: 0 0 0.5rem 0;
+            }
+            
+            ul li {
+                position: relative;
+                padding-left: 2ch;
+                margin-bottom: 0;
+                font-size: 0.75rem;
+                line-height: 1rem;
+            }
+            
+            ul li::before {
+                content: "• ";
+                position: absolute;
+                left: 0;
+                top: 0;
+            }
+            
+            /* Reduce section container padding */
+            .content_container {
+                padding: 1rem 0;
+            }
+            
+            /* Override the large br spacing */
+            .content_container br {
+                display: block;
+                height: 0.5rem;
+                content: "";
+            }
+        </style>
+        <link rel="stylesheet" href="src/css/style.css" />
+        <link rel="stylesheet" href="src/css/section_1.css" />
+
+        <!-- JS -->
+        <script src="src/js/utility_functions.js" defer></script>
+        <script src="src/js/dynamic_favicon.js" defer></script>
+    </head>
+    <body>
+        <div id="app_root">
+            <div id="content_root">
+                <div id="main_scale">
+                    <main>
+                        <div id="section_container">
+                            <section id="section_1" class="visible">
+                                <div class="content_container">
+                                    <br />
+                                    <h2>About</h2>
+                                    <p tabindex="0" data-edit="true">
+                                        A data engineer at Lusha.
+                                        Working on contact enrichment using graph and ML algorithms on big data.
+                                    </p>
+                                    <br />
+                                    <h2>social</h2>
+                                    <ul>
+                                        <li>
+                                            <a
+                                                href="https://github.com/avivshafir"
+                                                target="_blank"
+                                                tabindex="0"
+                                                class="button_link"
+                                                >GitHub</a
+                                            >
+                                        </li>
+                                        <li>
+                                            <a
+                                                href="https://x.com/avivshafir"
+                                                target="_blank"
+                                                tabindex="0"
+                                                class="button_link"
+                                                >X/Twitter</a
+                                            >
+                                        </li>
+                                        <li>
+                                            <a
+                                                href="https://www.linkedin.com/in/avivshafir/"
+                                                target="_blank"
+                                                tabindex="0"
+                                                class="button_link"
+                                                >LinkedIn</a
+                                            >
+                                        </li>
+                                    </ul>
+                                    <br />
+                                    <h2>experience</h2>
+                                    <ul>
+                                        <li>Lusha (Sep 2021 - Present)</li>
+                                        <li>Tomorrow.io (Feb 2020 - Sep 2021)</li>
+                                        <li>Innovid (Jan 2016 - Jan 2020)</li>
+                                    </ul>
+                                    <br />
+                                    <h2>tech</h2>
+                                    <ul>
+                                        <li>
+                                            <a
+                                                href="https://klim.co.nz/collections/untitled/"
+                                                target="_blank"
+                                                tabindex="0"
+                                                class="button_link"
+                                                >warp</a
+                                            >
+                                        </li>
+                                        <li>
+                                            <a
+                                                href="https://sampleprograms.io/"
+                                                target="_blank"
+                                                tabindex="0"
+                                                class="button_link"
+                                                >cursor.ai</a
+                                            >
+                                        </li>
+                                        <li>
+                                            <a
+                                                href="https://opentype.js.org/"
+                                                target="_blank"
+                                                tabindex="0"
+                                                class="button_link"
+                                                >claude code</a
+                                            >
+                                        </li>
+                                        <li>
+                                            <a
+                                                href="https://gildas-lormeau.github.io/zip.js/"
+                                                target="_blank"
+                                                tabindex="0"
+                                                class="button_link"
+                                                >databricks</a
+                                            >
+                                        </li>
+                                        <li>
+                                            <a
+                                                href="https://opentypecookbook.com/"
+                                                target="_blank"
+                                                tabindex="0"
+                                                class="button_link"
+                                                >spark</a
+                                            >
+                                        </li>
+                                        <li>
+                                            <a
+                                                href="https://pangrampangram.com/products/neue-montreal-mono"
+                                                target="_blank"
+                                                tabindex="0"
+                                                class="button_link"
+                                                >PP Neue Montreal Mono</a
+                                            >
+                                            and
+                                            <a
+                                                href="https://commitmono.com/"
+                                                target="_blank"
+                                                tabindex="0"
+                                                class="button_link"
+                                                >CommitMono</a
+                                            >
+                                        </li>
+                                    </ul>
+                                    <br />
+                                    <h2>fonts</h2>
+                                    <ul>
+                                        <li>
+                                            <a
+                                                href="https://pangrampangram.com/products/neue-montreal-mono"
+                                                target="_blank"
+                                                tabindex="0"
+                                                class="button_link"
+                                                >PP Neue Montreal Mono</a
+                                            >
+                                        </li>
+                                        <li>
+                                            <a
+                                                href="https://commitmono.com/"
+                                                target="_blank"
+                                                tabindex="0"
+                                                class="button_link"
+                                                >CommitMono</a
+                                            >
+                                        </li>
+                                    </ul>
+                                    <br />
+                                </div>
+                            </section>
+                        </div>
+                    </main>
+                </div>
+            </div>
+        </div>
+        <script>
+            const versionOfCommitMono = "V143"
+            let fontsLoaded = false
+            const commitMono = new FontFace(
+                "CommitMono",
+                `url(/src/fonts/fontlab/CommitMono${versionOfCommitMono}-VF.woff2)`,
+                {
+                    style: "normal",
+                    weight: "400",
+                }
+            )
+            // Add to the document.fonts (FontFaceSet)
+            document.fonts.add(commitMono)
+
+            // Load the font
+            commitMono.load()
+
+            // Wait until the fonts are all loaded
+            document.fonts.ready.then(() => {
+                fontsLoaded = true
+            })
+        </script>
+    </body>
+</html>
